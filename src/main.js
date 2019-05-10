@@ -3,6 +3,10 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+import "materialize-css";
+import "materialize-css/dist/css/materialize.min.css";
+import "material-icons";
+
 Vue.config.productionTip = false;
 
 new Vue({
